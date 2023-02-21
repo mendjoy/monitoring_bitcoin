@@ -1,9 +1,8 @@
-import { StyleSheet, StatusBar, Text, View, SafeAreaView, Platform } from 'react-native';
+import { StyleSheet, StatusBar, SafeAreaView, Platform } from 'react-native';
 
 //components
 import CurrentPrice from './src/components/CurrentPrice/CurrentPrice';
-import QuotationItem from './src/components/QuoationList/QuotationItem/QuotationItem';
-import QuotationList from './src/components/QuoationList/QuotationList';
+
 
 
 export default function App() {
@@ -14,9 +13,7 @@ export default function App() {
       backgroundColor='#008000'
       barStyle="dark-content" />
 
-      <CurrentPrice/>
-      <QuotationList/>
-      <QuotationItem/>
+     <CurrentPrice/>
 
     </SafeAreaView>
   );
